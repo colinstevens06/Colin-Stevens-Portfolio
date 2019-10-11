@@ -13,16 +13,15 @@
 
 .liNavA {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #777777;
 }
 
 .liNavALeft {
     float: left;
     display: block;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,5 +29,10 @@
 
 .liNavA:hover {
     background-color: #fffa00;
+}
+
+.body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 

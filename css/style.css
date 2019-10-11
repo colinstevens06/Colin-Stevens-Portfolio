@@ -1,0 +1,34 @@
+.ulNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+
+.liNav {
+    float: right;
+}
+
+.liNavA {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liNavALeft {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liNavA:hover {
+    background-color: #fffa00;
+}
+

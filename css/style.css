@@ -9,7 +9,7 @@
 
 .liNav {
     float: right;
-    border-left: 1px solid #bbb;
+    border-left: 1px solid #777777;
 }
 
 .liNav:last-child {
@@ -41,9 +41,10 @@
     color: #ffffff;
 }
 
-.body {
+body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/morocco-blue/morocco-blue.png");
 }
 
 .mainContainer {

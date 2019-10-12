@@ -9,6 +9,11 @@
 
 .liNav {
     float: right;
+    border-left: 1px solid #bbb;
+}
+
+.liNav:last-child {
+    border-left: none;
 }
 
 .liNavA {
@@ -25,14 +30,25 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 2em;
 }
 
 .liNavA:hover {
-    background-color: #fffa00;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 .body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.mainContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
 }
 

@@ -68,9 +68,7 @@ body {
 }
 
 .portContainer {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 25px;
+    margin: 25px auto;
     padding: 14px 16px;
     width: 960px;
     background-color: #ffffff;
@@ -94,15 +92,17 @@ h1 {
     margin-bottom: 15px;
 }
 
-.portContainer {
-
+.boxContainer {
+    display: inline-block;
 }
-
 .portBox {
     width: 400px;
     height: 300px;
     position: relative;
     float: left;
+    border: 1px solid #ffffff;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .portImg {

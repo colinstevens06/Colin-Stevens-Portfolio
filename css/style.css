@@ -84,3 +84,27 @@ h1 {
     margin-bottom: 15px;
 }
 
+.portContainer {
+
+}
+
+.portBox {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.portImg {
+    
+}
+
+.portHead {
+    position: absolute;
+    bottom: 10px;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+
+}
+

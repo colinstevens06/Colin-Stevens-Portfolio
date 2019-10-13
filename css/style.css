@@ -99,13 +99,14 @@ h1 {
     height: 250px;
     position: relative;
     float: left;
-    border: 1px solid #000000;
+    border: 5px solid #ffffff;
     margin-right: 30px;
     margin-bottom: 45px;
 }
 
-.portImg {
-    
+.portBox:hover {
+    transition: .25s;
+    border: 5px solid #4aaaa5;   
 }
 
 .portHead {

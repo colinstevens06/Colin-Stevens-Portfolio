@@ -119,3 +119,32 @@ h1 {
 
 }
 
+input {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.bigBox {
+    height: 200px;
+
+}
+
+form {
+    padding: 15px 0;
+}
+
+.submit {
+    padding: 5px 15px;
+    text-align: center;
+    width: 75px;
+    background: #4aaaa5;
+    color: white;
+}
+
+.submit:hover {
+    background: #ffffff;
+    border: 1px solid #4aaaa5;
+    color: #4aaaa5;
+    transition: .25s;
+    cursor: pointer;
+}

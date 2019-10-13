@@ -59,9 +59,7 @@ body {
 }
 
 .mainContainer {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 25px;
+    margin: 25px auto;
     padding: 14px 16px;
     width: 960px;
     background-color: #ffffff;
@@ -92,15 +90,16 @@ h1 {
     margin-bottom: 15px;
 }
 
-.boxContainer {
+.portContainer {
     display: inline-block;
+    padding: 0;
 }
 .portBox {
     width: 400px;
     height: 300px;
     position: relative;
     float: left;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     margin-right: 5px;
     margin-bottom: 5px;
 }
@@ -114,8 +113,9 @@ h1 {
     bottom: 10px;
     background: #4aaaa5;
     text-align: center;
-    padding: 5px;
+    padding: 15px 0;
     color: #ffffff;
+    width: 100%;
 
 }
 

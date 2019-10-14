@@ -46,6 +46,14 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+html {
+    background-image: url("../images/morocco-blue/morocco-blue.png");
+}
+
+html, body {
+    margin: 0;
+
+}
 .container {
     width: 960px;
     margin-right: auto;
@@ -71,12 +79,6 @@ body {
     padding: 14px 16px;
     width: 960px;
     background-color: #ffffff;
-}
-
-html {
-    background-image: url("../images/morocco-blue/morocco-blue.png");
-    background-size: cover;
-
 }
 
 h1 {

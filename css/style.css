@@ -105,7 +105,7 @@ h1 {
 }
 
 .portBox:hover {
-    transition: .25s;
+    transition: .5s;
     border: 5px solid #4aaaa5;   
 }
 

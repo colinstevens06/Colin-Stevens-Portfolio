@@ -68,13 +68,12 @@ html, body {
 }
 
 .mainContainer {
-    margin: 25px auto;
+    margin: 25px auto -40px auto;
     padding: 14px 16px;
     width: 960px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     min-height: 100%;
-    margin-bottom: -40px;
 }
 
     .mainContainer::after {
